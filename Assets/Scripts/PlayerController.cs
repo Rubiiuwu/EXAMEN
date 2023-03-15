@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public float PlayerSpeed = 2;
-    public float JumpForce = 8;
+    public float JumpForce = 2;
     public SpriteRenderer spriteRender;
     private Rigidbody2D rBody;
     private GroundSensor groundSensor; 
